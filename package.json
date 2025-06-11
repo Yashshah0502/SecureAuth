@@ -1,0 +1,26 @@
+{
+  "name": "secureauth",
+  "version": "1.0.0",
+  "main": "in dex.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Yashshah0502@github.com/Yashshah0502/SecureAuth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yashshah0502/SecureAuth/issues"
+  },
+  "homepage": "https://github.com/Yashshah0502/SecureAuth#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
