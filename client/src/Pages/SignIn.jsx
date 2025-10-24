@@ -6,6 +6,7 @@ import {
   signInSuccess,
   signInFailure,
 } from "../redux/user/userSlice";
+import OAuth from "../Components/OAuth";
 
 export default function Signin() {
   const [formData, setFormData] = useState({});
@@ -68,6 +69,7 @@ export default function Signin() {
           >
             {loading ? "Logging In" : "Sign In"}
           </button>
+          <OAuth></OAuth>
         </form>
 
         <div className="mt-6 text-center text-sm">
